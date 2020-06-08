@@ -1,0 +1,215 @@
+/* ******************************************************* */
+/* ******************************************************* */
+/* 			   GERAL			   */
+/* ******************************************************* */
+/* ******************************************************* */
+body{
+	background: #FFF !important;
+
+	font-family: futural;
+}
+
+div[role="main"]{
+	padding-top: 0px;
+	background: #FFF !important;
+}
+
+div#content{
+	margin: 0 10% 0 10%;
+
+	width: 80%;
+}
+
+div.account-masthead{
+	padding: 0 10% 0 10%;
+
+	width: 80%;
+}
+
+div.masthead{
+	padding: 0 10% 0 10%;
+
+	width: 80%;
+}
+
+div.wrapper{
+	background: #FFF !important;
+}
+
+div.primary{
+	width: 80% !important;
+
+	border-left: 1px solid #DDD;
+}
+
+aside.secondary{
+	width: 19.8% !important;
+}
+
+iframe[data-module]{
+	display: none;
+}
+
+/* ------------------------------------------------------- */
+/*  			   FONTs			   */
+/* ------------------------------------------------------- */
+@font-face{
+	font-weight: bold;
+	font-family: helveticaNeue;
+	
+	src: url('/catalogo/fontes/helvetica_neue_ultralight.ttf');
+}
+
+@font-face{
+	font-weight: bold;
+	font-family: helveticaneue-light;
+	
+	src: url('/catalogo/fontes/helvetica-neue-light.otf');
+}
+
+@font-face{
+	font-weight: bold;
+	font-family: futural;
+	
+	src: url('/catalogo/fontes/futural.ttf');
+}
+
+
+/* ------------------------------------------------------- */
+/*  			     HTML			   */
+/* ------------------------------------------------------- */
+html{
+	min-width: 1200px;
+
+	font-size: 14px;
+	font-family: futural;
+
+	color: #000;
+	background-color: #FFF;
+}
+
+
+/* ------------------------------------------------------- */
+/*  			     DIVs			   */
+/* ------------------------------------------------------- */
+div.ui-geral-container-centralizador{
+	margin: 0 10%;
+}
+
+
+/* ------------------------------------------------------- */
+/*  			   INPUTs			   */
+/* ------------------------------------------------------- */
+input.ui-geral-campo-padrao{
+	font-size: 100%;
+	font-weight: 600;
+
+	padding: 0.5%;
+
+	outline: none;
+	border: 1px solid #BBBBBB;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-ms-border-radius: 2px;
+
+	background: #FFF;
+	color: #000;
+
+	text-align: left;
+}
+
+input.ui-geral-campo-padrao.ui-geral-campo-direita{
+	float: right;
+
+	border-radius: 2px 0px 0px 2px;
+	-moz-border-radius: 2px 0px 0px 2px;
+	-webkit-border-radius: 2px 0px 0px 2px;
+	-ms-border-radius: 2px 0px 0px 2px;
+}
+
+input.ui-geral-campo-padrao:FOCUS{
+	border: 1px solid #686868;
+}
+
+
+/* ------------------------------------------------------- */
+/*  			      As			   */
+/* ------------------------------------------------------- */
+a.ui-geral-a-padrao{
+	color: #0016BD;
+
+	font-size: 100%;
+
+	text-decoration: none;
+}
+
+a.ui-geral-a-padrao:HOVER{
+	text-decoration: underline;
+}
+
+a.ui-geral-botao-busca{
+	position: relative;
+	top: -10px;
+	left: -10px;
+
+	width: 5%;
+
+	color: transparent;
+	background: transparent;
+
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+
+	cursor: pointer;
+}
+
+a.ui-geral-botao-busca.ui-geral-botao-busca-pequeno{
+	width: 14%;
+}
+
+a.ui-geral-botao-busca.ui-geral-botao-busca-direita{
+	float: right;
+
+	border-radius: 0px 2px 2px 0px;
+	-moz-border-radius: 0px 2px 2px 0px;
+	-webkit-border-radius: 0px 2px 2px 0px;
+	-ms-border-radius: 0px 2px 2px 0px;
+}
+
+a.ui-geral-botao-busca.ui-geral-botao-busca-esquerda{
+	float: left;
+
+	border-radius: 2px 0px 0px 2px;
+	-moz-border-radius: 2px 0px 0px 2px;
+	-webkit-border-radius: 2px 0px 0px 2px;
+	-ms-border-radius: 2px 0px 0px 2px;
+}
+
+a.ui-geral-botao-busca img{
+	float: left;
+}
+
+
+/* ------------------------------------------------------- */
+/*  			      HRs			   */
+/* ------------------------------------------------------- */
+hr.ui-geral-quebra-float{
+	clear: both;
+}
+
+hr.ui-geral-transparente{
+	color: transparent;
+	background-color: transparent;
+
+	border: 1px solid transparent;
+}
+
+hr.ui-geral-sem-tamanho{
+	border: none;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+

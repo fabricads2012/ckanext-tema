@@ -1,0 +1,4 @@
+
+        [ckan.plugins]
+        tema=ckanext.tema.plugin:TemaPlugin
+    
