@@ -12,6 +12,7 @@
 /* 				       CHAMADAS					 */
 /* ----------------------------------------------------------------------------- */
 // FORMULARIOS
+/*
 jQuery(document).ready( function() {
 	var elementosFormularios = jQuery('form[action]');
 
@@ -55,4 +56,4 @@ jQuery(document).ready( function() {
 			}
 		}
 	}
-});
+});*/
